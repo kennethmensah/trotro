@@ -2,7 +2,7 @@
 
 define("DB_HOST", 'localhost');
 
-define("DB_NAME", 'e_commerce_final');
+define("DB_NAME", 'troski');
 define("DB_PORT", 3306);
 define("DB_USER","root");
 define("DB_PWORD","");
