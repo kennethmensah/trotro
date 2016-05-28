@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use your current location" />
+
+    <Button
+        android:id="@+id/getLocation"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:ems="10"
+        android:hint="Find my location"
+        android:textSize="20sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/addressLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select location manually" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Find my location"
+        android:inputType="textPersonName"
+        android:paddingEnd="15sp"
+        android:paddingLeft="15sp"
+        android:paddingStart="15sp"
+        android:textSize="15sp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="40sp"
+        android:ems="10"
+        android:hint="Find my location"
+        android:inputType="textPersonName"
+        android:paddingEnd="15sp"
+        android:paddingLeft="15sp"
+        android:paddingStart="15sp"
+        android:textSize="15sp"
+        android:typeface="monospace" />
+
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="40sp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Search Path"
+        android:textColor="@color/routes_btn_txt"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+</LinearLayout>
